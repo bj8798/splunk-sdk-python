@@ -7,7 +7,7 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
-    if: startsWith(github.head_ref, 'release') || startsWith(github.head_ref, 'hotfix')
+    # if: startsWith(github.head_ref, 'release') || startsWith(github.head_ref, 'hotfix')
     steps:
           
       - name: Get PR Contributor Emails
